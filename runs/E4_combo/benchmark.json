@@ -1,0 +1,27 @@
+{
+  "exp_name": "E4_combo",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "gn",
+    "gn_groups": 32,
+    "use_cbam": true,
+    "use_dw": true
+  },
+  "img_size": 32,
+  "params": 1574644,
+  "params_m": 1.575,
+  "macs_g": 0.0738,
+  "flops_g": 0.1476,
+  "latency": {
+    "cpu_bs1_ms": 19.231,
+    "gpu_bs1_ms": 5.46,
+    "gpu_bs64_ms": 5.604
+  },
+  "throughput": {
+    "cpu_bs1_ips": 52.0,
+    "gpu_bs1_ips": 183.1,
+    "gpu_bs64_ips": 11419.6
+  },
+  "peak_infer_mem_mb": 166.9
+}

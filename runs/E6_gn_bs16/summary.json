@@ -1,0 +1,26 @@
+{
+  "exp_name": "E6_gn_bs16",
+  "dataset": "cifar100",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "gn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": false
+  },
+  "params": 11220132,
+  "params_m": 11.22,
+  "best_top1": 72.24,
+  "best_epoch": 99,
+  "final_top1": 72.24,
+  "final_top5": 92.29,
+  "epochs": 100,
+  "batch_size": 16,
+  "train_time_min": 157.84,
+  "sec_per_epoch": 94.71,
+  "peak_gpu_mem_mb": 278.0,
+  "device": "cuda",
+  "amp": true,
+  "seed": 42
+}

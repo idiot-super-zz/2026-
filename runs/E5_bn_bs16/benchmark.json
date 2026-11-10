@@ -1,0 +1,27 @@
+{
+  "exp_name": "E5_bn_bs16",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "bn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": false
+  },
+  "img_size": 32,
+  "params": 11220132,
+  "params_m": 11.22,
+  "macs_g": 0.5579,
+  "flops_g": 1.1159,
+  "latency": {
+    "cpu_bs1_ms": 6.56,
+    "gpu_bs1_ms": 1.988,
+    "gpu_bs64_ms": 4.593
+  },
+  "throughput": {
+    "cpu_bs1_ips": 152.43,
+    "gpu_bs1_ips": 503.0,
+    "gpu_bs64_ips": 13935.3
+  },
+  "peak_infer_mem_mb": 131.9
+}

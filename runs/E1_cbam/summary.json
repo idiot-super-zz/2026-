@@ -1,0 +1,26 @@
+{
+  "exp_name": "E1_cbam",
+  "dataset": "cifar100",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "bn",
+    "gn_groups": 32,
+    "use_cbam": true,
+    "use_dw": false
+  },
+  "params": 11308980,
+  "params_m": 11.309,
+  "best_top1": 76.88,
+  "best_epoch": 140,
+  "final_top1": 76.74,
+  "final_top5": 92.7,
+  "epochs": 150,
+  "batch_size": 128,
+  "train_time_min": 45.2,
+  "sec_per_epoch": 18.08,
+  "peak_gpu_mem_mb": 718.0,
+  "device": "cuda",
+  "amp": true,
+  "seed": 42
+}

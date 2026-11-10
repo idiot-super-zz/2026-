@@ -1,0 +1,26 @@
+{
+  "exp_name": "E4_combo",
+  "dataset": "cifar100",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "gn",
+    "gn_groups": 32,
+    "use_cbam": true,
+    "use_dw": true
+  },
+  "params": 1574644,
+  "params_m": 1.575,
+  "best_top1": 69.72,
+  "best_epoch": 146,
+  "final_top1": 69.69,
+  "final_top5": 89.95,
+  "epochs": 150,
+  "batch_size": 128,
+  "train_time_min": 50.16,
+  "sec_per_epoch": 20.06,
+  "peak_gpu_mem_mb": 1256.3,
+  "device": "cuda",
+  "amp": true,
+  "seed": 42
+}

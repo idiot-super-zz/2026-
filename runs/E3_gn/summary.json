@@ -1,0 +1,26 @@
+{
+  "exp_name": "E3_gn",
+  "dataset": "cifar100",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "gn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": false
+  },
+  "params": 11220132,
+  "params_m": 11.22,
+  "best_top1": 74.88,
+  "best_epoch": 143,
+  "final_top1": 74.71,
+  "final_top5": 91.34,
+  "epochs": 150,
+  "batch_size": 128,
+  "train_time_min": 31.35,
+  "sec_per_epoch": 12.54,
+  "peak_gpu_mem_mb": 919.6,
+  "device": "cuda",
+  "amp": true,
+  "seed": 42
+}

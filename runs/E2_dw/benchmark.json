@@ -1,0 +1,27 @@
+{
+  "exp_name": "E2_dw",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "bn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": true
+  },
+  "img_size": 32,
+  "params": 1485796,
+  "params_m": 1.486,
+  "macs_g": 0.0756,
+  "flops_g": 0.1511,
+  "latency": {
+    "cpu_bs1_ms": 7.92,
+    "gpu_bs1_ms": 2.229,
+    "gpu_bs64_ms": 2.628
+  },
+  "throughput": {
+    "cpu_bs1_ips": 126.26,
+    "gpu_bs1_ips": 448.7,
+    "gpu_bs64_ips": 24356.1
+  },
+  "peak_infer_mem_mb": 166.6
+}

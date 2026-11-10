@@ -1,0 +1,26 @@
+{
+  "exp_name": "E5_bn_bs16",
+  "dataset": "cifar100",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "bn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": false
+  },
+  "params": 11220132,
+  "params_m": 11.22,
+  "best_top1": 76.73,
+  "best_epoch": 98,
+  "final_top1": 76.48,
+  "final_top5": 94.02,
+  "epochs": 100,
+  "batch_size": 16,
+  "train_time_min": 135.4,
+  "sec_per_epoch": 81.24,
+  "peak_gpu_mem_mb": 658.1,
+  "device": "cuda",
+  "amp": true,
+  "seed": 42
+}

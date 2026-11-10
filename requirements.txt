@@ -1,0 +1,8 @@
+# 训练机（RTX 3080 Ti）建议装 CUDA 版：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1
+torchvision>=0.16
+thop>=0.1.1
+tqdm>=4.65
+numpy>=1.24
+matplotlib>=3.7

@@ -1,0 +1,26 @@
+{
+  "exp_name": "E0_baseline",
+  "dataset": "cifar100",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "bn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": false
+  },
+  "params": 11220132,
+  "params_m": 11.22,
+  "best_top1": 78.36,
+  "best_epoch": 148,
+  "final_top1": 78.31,
+  "final_top5": 93.35,
+  "epochs": 150,
+  "batch_size": 128,
+  "train_time_min": 26.35,
+  "sec_per_epoch": 10.54,
+  "peak_gpu_mem_mb": 959.3,
+  "device": "cuda",
+  "amp": true,
+  "seed": 42
+}

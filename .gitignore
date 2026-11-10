@@ -1,0 +1,30 @@
+# 数据与实验产物
+data/
+external/
+figures/
+# 报告文档及其生成脚本单独提交，不进代码仓库
+报告/
+
+# runs/ 下的 JSON（config/metrics/summary/benchmark）体积很小，保留在仓库里作为结果凭证；
+# 权重文件体积大且可由训练复现，不纳入版本管理。
+runs/**/*.pth
+runs/**/*.pt
+report_tables.md
+report_tables.tex
+
+# 权重
+*.pth
+*.pt
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# 编辑器
+.vscode/
+.idea/

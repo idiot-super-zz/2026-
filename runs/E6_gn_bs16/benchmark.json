@@ -1,0 +1,27 @@
+{
+  "exp_name": "E6_gn_bs16",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "gn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": false
+  },
+  "img_size": 32,
+  "params": 11220132,
+  "params_m": 11.22,
+  "macs_g": 0.5555,
+  "flops_g": 1.111,
+  "latency": {
+    "cpu_bs1_ms": 6.201,
+    "gpu_bs1_ms": 2.236,
+    "gpu_bs64_ms": 4.961
+  },
+  "throughput": {
+    "cpu_bs1_ips": 161.25,
+    "gpu_bs1_ips": 447.1,
+    "gpu_bs64_ips": 12900.0
+  },
+  "peak_infer_mem_mb": 131.8
+}

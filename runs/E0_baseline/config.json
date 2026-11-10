@@ -1,0 +1,28 @@
+{
+  "exp_name": "E0_baseline",
+  "model": {
+    "num_classes": 100,
+    "stem": "cifar",
+    "norm": "bn",
+    "gn_groups": 32,
+    "use_cbam": false,
+    "use_dw": false
+  },
+  "dataset": "cifar100",
+  "train_size": 50000,
+  "val_size": 10000,
+  "num_classes": 100,
+  "epochs": 150,
+  "batch_size": 128,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "label_smoothing": 0.1,
+  "cutout": 16,
+  "img_size": 32,
+  "seed": 42,
+  "amp": true,
+  "device": "cuda",
+  "torch": "2.3.0+cu121",
+  "params": 11220132
+}
